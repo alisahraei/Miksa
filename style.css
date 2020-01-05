@@ -29,7 +29,7 @@ div.min{
 	height               : 100vh;
 	width                : 100%;
 	/*opacity            : 0;*/
-	background-image     : url(image/background.jpeg);
+	background-image     : url(image/background.jpg);
 	background-repeat    : no-repeat;
 	background-size      : cover;
 	background-attachment: fixed;
@@ -37,31 +37,29 @@ div.min{
 	filter               : grayscale(70%);
 }
 div.container {
-	position   : absolute;
-	top: 10%;
-	right       : 10%;
-	z-index    : 2;
+	position : absolute;
+	top      : 10%;
+	right    : 10%;
+	z-index  : 2;
 	direction: rtl;
 }
 div.container b {
-	color      : #915DEB ;
+	color    : #915DEB ;
 	font-size: 8em;
 }
 div.container span{
 	font-size: 2em;
-	color: #9316D5;
-	background-color: rgba(160, 160, 164, 1);
-	padding: 2px;
-	border-radius: 10px;
+	color    : #9316D5;
+
 }
 div.comin{
-	position: absolute;
-	bottom: 10%;
-	left: 10%;
+	position        : absolute;
+	bottom          : 10%;
+	left            : 10%;
 	background-color: #ECB70F;
-	border-radius: 30px;
-	padding: 20px;
-	direction: rtl;
-	color:  #2E2D2A;
-	font-size: 1.5em;
+	border-radius   : 30px;
+	padding         : 20px;
+	direction       : rtl;
+	color           :  #2E2D2A;
+	font-size       : 1.5em;
 }
